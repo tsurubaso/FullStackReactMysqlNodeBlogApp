@@ -175,22 +175,37 @@ $lightGreen: #b9e7e7;
               border: 1px solid teal;
               color: teal;
 
-              &:hover{
-
+              &:hover {
                 border: 1px solid white;
                 background-color: $lightGreen;
-                color:black;
-
-
-
+                color: black;
               }
-
-
-
             }
           }
         }
       }
     }
+
+
+//Single
+
+.single{
+  display: flex;
+  gap: 50px;
+
+  .content{
+
+    flex:5
+  }
+  .menu{
+    flex:2;
+  }
+}
+
+
+
+
+
+
   }
 }

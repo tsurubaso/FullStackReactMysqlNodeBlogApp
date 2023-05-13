@@ -2,7 +2,10 @@ import React from 'react'
 
 const Single = () => {
   return (
-    <div>Single</div>
+    <div className='single'>
+      <div className="content">Content</div>
+      <div className="menu">Menu</div>
+    </div>
   )
 }
 
