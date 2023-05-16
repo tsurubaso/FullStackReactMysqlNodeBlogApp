@@ -22,13 +22,8 @@ const Register = () => {
   const handleSubmit= async e => {
     e.preventDefault()
     try {
-      let config = {
-        headers: {
-          "Access-Control-Allow-Origin": "http://localhost:8800/api/auth/register",
-        }
-      }
      
-      const res=await axios.post("http://localhost:8800/api/auth/register", inputs,config)
+      const res=await axios.post("http://localhost:8800/api/auth/register", inputs)
       //
       //
       console.log(res)
