@@ -47,9 +47,9 @@ const login = () => {
     <div className="auth">
       <h1>Login</h1>
       <form>
-        <input required type="text" placeholder="username" name="username" on onChange={handleC
+        <input required type="text" placeholder="username" name="username" on onChange={handleChange
         }/>
-        <input required type="password" placeholder="password" name="password"on onChange={handleC
+        <input required type="password" placeholder="password" name="password"on onChange={handleChange
         }/>
         <button onClick={handleSubmit}>Login</button>
         {err&&<p>{err}</p>}
